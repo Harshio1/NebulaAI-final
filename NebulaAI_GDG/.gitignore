@@ -1,0 +1,14 @@
+data_store/
+__pycache__/
+*.pyc
+*.db
+.DS_Store
+workspace/
+node_agent/data/
+node_modules/
+dist/
+.env
+.parcel-cache/
+.next/
+build/
+
