@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "buildCommand": "cd nebula-frontend && npm install && npm run build",
+  "outputDirectory": "nebula-frontend/dist",
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet ./"
+}

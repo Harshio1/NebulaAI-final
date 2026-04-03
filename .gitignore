@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# Python Environments
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Heavy AI / ML Files
+*.pt
+*.pth
+*.h5
+data/
+models/
+NebulaAI_GDG/data_store/
+
+# OS Files
+.DS_Store
+Thumbs.db
