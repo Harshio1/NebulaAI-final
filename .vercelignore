@@ -1,24 +1,5 @@
-# EXCLUDE THE ENTIRE BACKEND FROM VERCEL
 NebulaAI_GDG/
-backend/
-
-# Python Environments & Caches
-venv/
-env/
-.env
-__pycache__/
-*.pyc
-
-# ML Models and Massive Data Files
-*.pt
-*.pth
-*.h5
-*.onnx
-data/
-models/
-data_store/
-
-# Misc
-.git/
-.github/
-README.md
+.git
+node_modules
+__pycache__
+*.log
