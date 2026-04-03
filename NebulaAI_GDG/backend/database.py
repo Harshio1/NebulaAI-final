@@ -1,6 +1,6 @@
 import sqlite3
 from sqlite3 import Connection
-from config import DATABASE_URL
+from backend.config import DATABASE_URL
 
 def get_db_connection() -> Connection:
     """Returns a connection to the SQLite database."""

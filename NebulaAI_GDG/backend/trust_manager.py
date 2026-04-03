@@ -1,4 +1,4 @@
-from database import get_db_connection
+from backend.database import get_db_connection
 
 def add_trust(node_id: str, amount: int = 5):
     """Adds trust to a node. Triggered on successful job completion."""

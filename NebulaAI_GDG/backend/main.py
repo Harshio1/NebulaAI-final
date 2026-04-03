@@ -8,12 +8,12 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import List, Dict
 
-from database import init_db, get_db_connection
-from models import NodeRegistration, NodeHeartbeat, JobSubmission, JobMetrics
-from trust_manager import add_trust, deduct_trust, add_credits
-from websocket_manager import manager
-from node_registry import NodeRegistry
-from pipeline_manager import PipelineManager
+from backend.database import init_db, get_db_connection
+from backend.models import NodeRegistration, NodeHeartbeat, JobSubmission, JobMetrics
+from backend.trust_manager import add_trust, deduct_trust, add_credits
+from backend.websocket_manager import manager
+from backend.node_registry import NodeRegistry
+from backend.pipeline_manager import PipelineManager
 
 from fastapi.middleware.cors import CORSMiddleware
 

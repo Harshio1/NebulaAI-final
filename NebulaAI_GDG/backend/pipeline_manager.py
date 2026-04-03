@@ -1,7 +1,7 @@
 import time
 import uuid
-from database import get_db_connection
-from scheduler import Scheduler
+from backend.database import get_db_connection
+from backend.scheduler import Scheduler
 
 # Supported job types and their display names for logging
 JOB_TYPE_LABELS = {
