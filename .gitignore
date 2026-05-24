@@ -21,3 +21,6 @@ NebulaAI_GDG/data_store/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Embedded Repositories
+Adaptive-OCT-Classifier-repo/
